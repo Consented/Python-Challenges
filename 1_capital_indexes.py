@@ -8,3 +8,8 @@ def capital_indexes(string):
 print(capital_indexes("HeLlO"))
 
 
+def efficient_capital_indexes(string):
+    capital_index = [i for i in range(len(string)) if ord(string[i]) >= 65 and ord(string[i]) <= 90]
+    return capital_index
+
+print(efficient_capital_indexes("HeLlO"))
