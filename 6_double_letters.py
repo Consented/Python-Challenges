@@ -12,4 +12,6 @@ def double_letters(string):
         if string[i] == string[i+1]:
             return True
     return False
+
 print(double_letters("hello"))
+
